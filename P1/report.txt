@@ -1,0 +1,37 @@
+Step 5 Inputs
+Entering the inputs of 10,11, and 11 described how
+10 people were surveyed,
+11 out of the 10 people obeyed the orders, and
+the "other" 11 out of the 10 people disobeyed the orders.
+
+Consequently, the result of the file in step 5 calculated that
+110.0% say they are obeying the orders,
+110.0% say they are disobeying the orders, and
+More people are disobeying than obeying the orders.
+
+
+
+
+logic_error.cpp
+One error that someone might make which was described in this file:
+in lines 21 of logic_error.cpp, they forgot an extra 0 in 100.0, and
+instead, typed 10.0 which leads to underestimated statistical data
+when surveying people (running the code).
+
+Additionally, another error would be in lines 30 where
+one might switch the inequality symbol in the if statement
+by putting if (obey < disobey) which consistently
+leads to the opposite (false) conclusion
+
+
+
+
+compile_error.cpp
+One type of mistake would be
+forgetting to define or include integers of obey and disobey, namely:
+	int obey;
+	int disobey;
+
+Another type of error would be
+listing pctObey and pctDisobey as "cin" instead of "cout"
+which mistakenly treats "<<" as an operator.
